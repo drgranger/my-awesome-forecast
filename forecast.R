@@ -1,4 +1,5 @@
 #My awesome forecast
+#Stuff
 gflu = read.csv("http://www.google.org/flutrends/about/data/flu/us/data.txt",
                 skip = 11)
 y = ts(gflu$Massachusetts)
